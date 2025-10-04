@@ -1,0 +1,8 @@
+@startuml
+class TarjetaDeCredito { -numero:String; -fechaVencimiento:LocalDate }
+class Cliente { -nombre:String; -dni:String }
+class Banco { -nombre:String; -cuit:String }
+
+TarjetaDeCredito "1" <--> "1" Cliente
+TarjetaDeCredito "1" o-- "1" Banco
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class Reproductor
+class Cancion { -titulo:String }
+class Artista { -nombre:String; -genero:String }
+
+Cancion "1" --> "1" Artista
+Reproductor ..> Cancion : usa
+@enduml

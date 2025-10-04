@@ -1,0 +1,8 @@
+@startuml
+class CitaMedica { -fecha:LocalDate; -hora:LocalTime }
+class Paciente { -nombre:String; -obraSocial:String }
+class Profesional { -nombre:String; -especialidad:String }
+
+CitaMedica "1" --> "1" Paciente
+CitaMedica "1" --> "1" Profesional
+@enduml

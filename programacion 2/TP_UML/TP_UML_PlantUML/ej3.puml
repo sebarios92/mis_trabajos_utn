@@ -1,0 +1,8 @@
+@startuml
+class Libro { -titulo:String; -isbn:String }
+class Autor { -nombre:String; -nacionalidad:String }
+class Editorial { -nombre:String; -direccion:String }
+
+Libro "1" --> "1" Autor
+Libro "1" o-- "1" Editorial
+@enduml

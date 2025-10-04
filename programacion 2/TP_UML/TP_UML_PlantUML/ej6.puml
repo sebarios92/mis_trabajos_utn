@@ -1,0 +1,8 @@
+@startuml
+class Reserva { -fecha:LocalDate; -hora:LocalTime }
+class Cliente { -nombre:String; -telefono:String }
+class Mesa { -numero:int; -capacidad:int }
+
+Reserva "1" --> "1" Cliente
+Reserva "1" o-- "1" Mesa
+@enduml

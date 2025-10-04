@@ -1,0 +1,8 @@
+@startuml
+class Pasaporte { -numero:String; -fechaEmision:LocalDate }
+class Foto { -imagen:byte[]; -formato:String }
+class Titular { -nombre:String; -dni:String }
+
+Pasaporte "1" *-- "1" Foto
+Pasaporte "1" <--> "1" Titular
+@enduml
