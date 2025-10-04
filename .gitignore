@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Java / NetBeans / IntelliJ
+*.class
+*.log
+*.iml
+.idea/
+nbproject/private/
+build/
+dist/
+out/
+target/
+*.jar
