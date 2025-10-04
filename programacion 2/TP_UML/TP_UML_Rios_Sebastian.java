@@ -1,6 +1,5 @@
 // ===============================================
 // TP UML – RÍOS SEBASTIÁN
-// Todas las clases Java en un solo archivo (corregido)
 // ===============================================
 
 import java.time.LocalDate;
