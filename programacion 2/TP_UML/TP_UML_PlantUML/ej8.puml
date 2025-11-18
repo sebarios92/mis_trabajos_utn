@@ -1,8 +1,0 @@
-@startuml
-class Documento { -titulo:String; -contenido:String }
-class FirmaDigital { -codigoHash:String; -fecha:LocalDateTime }
-class Usuario { -nombre:String; -email:String }
-
-Documento "1" *-- "1" FirmaDigital
-FirmaDigital "1" o-- "1" Usuario
-@enduml

@@ -1,8 +1,0 @@
-@startuml
-class Vehiculo { -patente:String; -modelo:String }
-class Motor { -tipo:String; -numeroSerie:String }
-class Conductor { -nombre:String; -licencia:String }
-
-Vehiculo "1" o-- "1" Motor
-Vehiculo "1" <--> "1" Conductor
-@enduml

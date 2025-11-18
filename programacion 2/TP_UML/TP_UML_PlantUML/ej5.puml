@@ -1,8 +1,0 @@
-@startuml
-class Computadora { -marca:String; -numeroSerie:String }
-class PlacaMadre { -modelo:String; -chipset:String }
-class Propietario { -nombre:String; -dni:String }
-
-Computadora "1" *-- "1" PlacaMadre
-Computadora "1" <--> "1" Propietario
-@enduml

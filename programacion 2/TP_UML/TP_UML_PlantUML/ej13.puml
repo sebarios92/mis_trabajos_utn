@@ -1,8 +1,0 @@
-@startuml
-class GeneradorQR
-class CodigoQR { -valor:String }
-class Usuario { -nombre:String; -email:String }
-
-CodigoQR "1" --> "1" Usuario
-GeneradorQR ..> CodigoQR : crea
-@enduml

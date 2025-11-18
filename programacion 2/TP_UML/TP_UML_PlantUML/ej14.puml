@@ -1,8 +1,0 @@
-@startuml
-class EditorVideo
-class Proyecto { -nombre:String; -duracionMin:int }
-class Render { -formato:String }
-
-Render "1" --> "1" Proyecto
-EditorVideo ..> Render : crea
-@enduml

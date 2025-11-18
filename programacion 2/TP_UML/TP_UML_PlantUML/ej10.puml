@@ -1,8 +1,0 @@
-@startuml
-class CuentaBancaria { -cbu:String; -saldo:double }
-class ClaveSeguridad { -codigo:String; -ultimaModificacion:LocalDateTime }
-class Titular { -nombre:String; -dni:String }
-
-CuentaBancaria "1" *-- "1" ClaveSeguridad
-CuentaBancaria "1" <--> "1" Titular
-@enduml

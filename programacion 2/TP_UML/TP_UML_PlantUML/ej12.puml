@@ -1,8 +1,0 @@
-@startuml
-class Calculadora
-class Impuesto { -monto:double }
-class Contribuyente { -nombre:String; -cuil:String }
-
-Impuesto "1" --> "1" Contribuyente
-Calculadora ..> Impuesto : usa
-@enduml
